@@ -1,0 +1,101 @@
+html {
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  margin: 28px 20px 22px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 44px 20px 20px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.download-link {
+  margin: 0 0 32px;
+}
+
+.video-section {
+  margin: 0 auto;
+}
+
+video {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.description {
+  margin: 0 20px 20px;
+  color: gray;
+  font-size: 21px;
+}
+
+.media-block {
+  margin: 0;
+}
+
+.camp-image {
+  display: block;
+  width: auto;
+  max-width: calc(100% - 40px);
+  height: auto;
+  margin: 0 auto;
+}
+
+.phone-icon {
+  display: block;
+  width: 64px;
+  height: auto;
+  margin: 28px auto 0;
+}
+
+footer {
+  padding: 0 14px 10px;
+  color: gray;
+  font-size: 21px;
+  text-align: right;
+}
+
+footer p {
+  margin: 26px 0 0;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .description,
+  footer {
+    font-size: 18px;
+  }
+}
